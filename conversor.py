@@ -16,7 +16,7 @@ try:
     cantidad = float(input("Cantidad a convertir: "))
 
     resultado = convertir(moneda_origen, moneda_destino, cantidad)
-    print(f"Resultado: {resultado}")
+    print(f"{cantidad} {moneda_origen} equivalen a {resultado:.2f} {moneda_destino}")
 
 except ValueError:
     print("Debe ingresar un número válido")
